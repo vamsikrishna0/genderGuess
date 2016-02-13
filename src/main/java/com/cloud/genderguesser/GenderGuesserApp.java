@@ -1,4 +1,4 @@
-package metro;
+package com.cloud.genderguesser;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -16,10 +16,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 @ComponentScan
 @EnableAutoConfiguration
-public class MetroTrackingApp {
+public class GenderGuesserApp {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MetroTrackingApp.class, args);
+	  public static void main(String[] args) {
+		SpringApplication.run(GenderGuesserApp.class, args);
 
 	}
 
