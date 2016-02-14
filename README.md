@@ -27,11 +27,11 @@ Example starting this container:
 ```
 docker run -it cloudcomp /startme.sh
 ```
-Then: test it using
+* This will start the container and the webserver.
+* Then test it using
 ```
 curl http://localhost:80/getgender?name=sandra
 ```
-This will start the container and the webserver.
 
 Future work:
 =============
