@@ -23,8 +23,7 @@ public class GenderGuesserController {
 	   @RequestMapping(value = "/getgender", method = RequestMethod.GET)
 	   String getGender(@RequestParam String name) throws UnirestException  {
 		   GenderGuesserService service = new GenderGuesserService();
-		   service.getResponse(name);
-	       return "Hello World !" + name;
+	       return service.getResponse(name);
 	   }
 
 }
