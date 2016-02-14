@@ -13,10 +13,6 @@ $ curl http://localhost:80/getgender?name=sandra
 {"name":"Sandra","gender":"female","description":"The name Sandra is female."}
 ```
 
-Future work:
-=============
-* We can further work towards adding localizations to the names, like chinese or danish.
-* Also we can add provisions for putting multiple names in a single request
 
 ## Docker Notes
 Download this continer and then
@@ -37,3 +33,7 @@ curl http://localhost:80/getgender?name=sandra
 ```
 This will start the container and the webserver.
 
+Future work:
+=============
+* We can further work towards adding localizations to the names, like chinese or danish.
+* Also we can add provisions for putting multiple names in a single request
