@@ -1,7 +1,7 @@
 cloudProject1
 =============
 This webservice takes a name and tries to figure out the gender of that person. The application calls a webservice API 
-from Mashape and returns the data in a json object form. Please note that we can do only x requests per a minute. 
+from Mashape and returns the data in a json object form. Please note that we can do only one request per 10 minutes. 
 
 * URL:/getgender?name=<input name>
 * returns: Json object with name and the predicted gender
