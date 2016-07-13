@@ -27,7 +27,7 @@ public class GenderGuesserApp {
 	  @Bean
 	  public Docket newsApi() {
 	      return new Docket(DocumentationType.SWAGGER_2)
-	              .groupName("metrotrackingInfo")
+	              .groupName("GenderGuessInfo")
 	              .apiInfo(apiInfo())
 	              .select()
 	              .build();
@@ -35,8 +35,8 @@ public class GenderGuesserApp {
 	   
 	  private ApiInfo apiInfo() {
 	      return new ApiInfoBuilder()
-	              .title("Cincinnati Metro Tracking Info")
-	              .description("Web App build using Cincinnati Metro Tracking API")
+	              .title("Guess Gender using name Info")
+	              .description("Web App build using API")
 	              .termsOfServiceUrl("Have Fun !")
 	              .build();
 	  }
